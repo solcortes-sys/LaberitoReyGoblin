@@ -10,6 +10,7 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         playerRB = GetComponent<Rigidbody2D>();
+        Debug.Log("sInicia el juego");
 
     }
 
