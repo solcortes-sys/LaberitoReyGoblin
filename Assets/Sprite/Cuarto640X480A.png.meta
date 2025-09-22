@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 6aac3c888e9a91b4197daec4a2f9a799
+guid: 4ad9cbfbc67515b449e3255ff7c54708
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7346837786960108939
-    second: Cuarto640X480_0
+      213: -4402192811344541130
+    second: Cuarto640X480A_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Cuarto640X480_0
+      name: Cuarto640X480A_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 57263dd35f9ca0a90800000000000000
-      internalID: -7346837786960108939
+      spriteID: 63ac70f36f448e2c0800000000000000
+      internalID: -4402192811344541130
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Cuarto640X480_0: -7346837786960108939
+      Cuarto640X480A_0: -4402192811344541130
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
