@@ -43,7 +43,7 @@ public class FollowAI : MonoBehaviour
         {
             isFacingRight = !isFacingRight;
             Vector3 Scale = transform.localScale;
-            Scale.x = -2;
+            Scale.x = -1;
             transform.localScale = Scale;
         }
        
