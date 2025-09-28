@@ -5,6 +5,7 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D playerRB;
     [SerializeField] private float speed = 3f;
     private Vector2 moveInput;
+    private bool lookRight;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -28,4 +29,9 @@ public class PlayerMovement : MonoBehaviour
 
     }
 
+    private void Spin() //Girar
+    {
+        lookRight = !lookRight; //MirarDerecha
+        transform.eulerAngles = new Vector3(0, transform.eulerAngles.y + 180, 0);
+    }
 }

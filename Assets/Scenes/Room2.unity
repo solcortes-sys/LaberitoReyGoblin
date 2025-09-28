@@ -131,6 +131,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Skeletor
       objectReference: {fileID: 0}
+    - target: {fileID: 2581285756095894193, guid: 28f7d29fa7c0be44da8c1a46699f31d1, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 3058855495454091704, guid: 28f7d29fa7c0be44da8c1a46699f31d1, type: 3}
       propertyPath: m_SortingOrder
       value: 1
@@ -184,9 +188,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9099339150461786473, guid: 28f7d29fa7c0be44da8c1a46699f31d1, type: 3}
+      propertyPath: speed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9099339150461786473, guid: 28f7d29fa7c0be44da8c1a46699f31d1, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 801965578}
+    - target: {fileID: 9099339150461786473, guid: 28f7d29fa7c0be44da8c1a46699f31d1, type: 3}
+      propertyPath: distanceMin
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -248,6 +260,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6128954348516561991, guid: 7333de7360b5b25418441cc87446a6a0, type: 3}
+      propertyPath: controllerShots
+      value: 
+      objectReference: {fileID: 1971691674}
     - target: {fileID: 7286279098170057425, guid: 7333de7360b5b25418441cc87446a6a0, type: 3}
       propertyPath: m_Name
       value: Player
@@ -797,6 +813,11 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.3893435, y: 0.7316911}
   m_EdgeRadius: 0
+--- !u!4 &1971691674 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3215320599024769778, guid: 7333de7360b5b25418441cc87446a6a0, type: 3}
+  m_PrefabInstance: {fileID: 568353597}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4029538901466616035
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -11,14 +11,13 @@ public class Fall : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
 
     {
-       // if (collision.CompareTag("FalseDoor"))
+        if (collision.CompareTag("FalseDoor"))
         {
             rb = GetComponent<Rigidbody2D>();
             if (rb != null)
             {
                 rb.gravityScale = 10f;
-               
-                rb.transform.SetParent(camara.transform);
+               // rb.transform.SetParent(camara.transform);
             }
            
         }
