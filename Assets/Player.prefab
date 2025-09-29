@@ -256,7 +256,7 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!114 &587125521464638017
 MonoBehaviour:
@@ -283,5 +283,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8235eef4ab6cc754e81566192be5da8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  controllerShots: {fileID: 0}
+  controllerShots: {fileID: 3215320599024769778}
   arrow: {fileID: 8110639007392355744, guid: 5b59e58325372544f8912af83548130f, type: 3}
