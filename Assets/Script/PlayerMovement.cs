@@ -7,9 +7,14 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 moveInput;
     private bool lookRight;
 
+    private float moveX;
+    private float moveY;
+    private Animator animator;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        animator = GetComponent<Animator>();
         playerRB = GetComponent<Rigidbody2D>();
         Debug.Log("sInicia el juego");
 
@@ -18,9 +23,18 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float moveX = Input.GetAxisRaw("Horizontal");
-        float moveY = Input.GetAxisRaw("Vertical");
-        moveInput = new Vector2(moveX, moveY);
+        moveX = Input.GetAxisRaw("Horizontal");
+        moveY = Input.GetAxisRaw("Vertical");
+        animator.SetFloat("MoveX", moveX);
+        animator.SetFloat("MoveY", moveY);
+
+        if( moveX !=0|| moveY!=0)
+        {
+            animator.SetFloat("LastX", moveX);
+            animator.SetFloat("LastY", moveY);
+        }
+
+        moveInput = new Vector2(moveX, moveY).normalized;
 
     }
     private void FixedUpdate()

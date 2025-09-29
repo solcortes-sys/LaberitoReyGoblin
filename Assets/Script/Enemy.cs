@@ -6,7 +6,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] private float life;
     [SerializeField] private GameObject deathEffect;
 
-    public void takeDamage(float damage)
+    public void TakeDamage(float damage)
     {
         Debug.Log("Vida: " + life);
         Debug.Log("Daño: " + damage);
