@@ -6,19 +6,23 @@ public class Arrow : MonoBehaviour
 
     [SerializeField] private float speed;
     [SerializeField] private float damage;
+    [SerializeField] private GameObject Player;
+    
 
    
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Vector2.right * speed * Time.deltaTime);
+        
+        transform.Translate(Vector2.left * speed * Time.deltaTime);
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Enemy"))
+        if (collision.gameObject.tag=="Enemy")
         {
-            collision.GetComponent<Enemy>().takeDamage(damage);
+            collision.GetComponent<Enemy>().TakeDamage(damage);
             Destroy(gameObject);
             
         }
