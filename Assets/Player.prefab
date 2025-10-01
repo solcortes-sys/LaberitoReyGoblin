@@ -13,7 +13,7 @@ GameObject:
   m_Layer: 0
   m_Name: ControllerShots
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -104,6 +104,7 @@ GameObject:
   - component: {fileID: 6090315345949408638}
   - component: {fileID: 587125521464638017}
   - component: {fileID: 6128954348516561991}
+  - component: {fileID: 8722181397329541697}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -286,5 +287,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   controllerShots: {fileID: 3215320599024769778}
   arrow: {fileID: 8110639007392355744, guid: 5b59e58325372544f8912af83548130f, type: 3}
-  firePoint: {fileID: 0}
   playerMovement: {fileID: 587125521464638017}
+--- !u!95 &8722181397329541697
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7286279098170057425}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5a7672e245e84444abf617cef062d4e1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

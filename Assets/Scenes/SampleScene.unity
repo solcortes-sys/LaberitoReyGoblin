@@ -1330,11 +1330,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 13, y: 1}
   m_EdgeRadius: 0
---- !u!4 &1293360868 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3215320599024769778, guid: 7333de7360b5b25418441cc87446a6a0, type: 3}
-  m_PrefabInstance: {fileID: 8453227998498752461}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1947387854
 GameObject:
   m_ObjectHideFlags: 0
@@ -1472,10 +1467,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Skeletor
       objectReference: {fileID: 0}
-    - target: {fileID: 2581285756095894193, guid: 28f7d29fa7c0be44da8c1a46699f31d1, type: 3}
-      propertyPath: m_TagString
-      value: Enemy
-      objectReference: {fileID: 0}
     - target: {fileID: 8659278858116870551, guid: 28f7d29fa7c0be44da8c1a46699f31d1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.66
@@ -1573,10 +1564,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6128954348516561991, guid: 7333de7360b5b25418441cc87446a6a0, type: 3}
-      propertyPath: controllerShots
-      value: 
-      objectReference: {fileID: 1293360868}
     - target: {fileID: 7286279098170057425, guid: 7333de7360b5b25418441cc87446a6a0, type: 3}
       propertyPath: m_Name
       value: Player
