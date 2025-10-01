@@ -6,7 +6,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float speed = 3f;
     private Vector2 moveInput;
     private bool lookRight;
-
+    // Variable para almacenar la última dirección válida (LastX, LastY)
+    public Vector2 lastDirection;
     private float moveX;
     private float moveY;
     private Animator animator;
@@ -32,6 +33,9 @@ public class PlayerMovement : MonoBehaviour
         {
             animator.SetFloat("LastX", moveX);
             animator.SetFloat("LastY", moveY);
+            lastDirection = new Vector2(moveX, moveY).normalized;
+            Debug.Log("Movex" + moveX);
+            Debug.Log("MoveY" + moveY);
         }
 
         moveInput = new Vector2(moveX, moveY).normalized;

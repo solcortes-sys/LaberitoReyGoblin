@@ -26,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 416070085036149018}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.18, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -79,7 +79,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -87,7 +87,7 @@ SpriteRenderer:
   m_Size: {x: 0.2, y: 0.2}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &7286279098170057425
@@ -271,6 +271,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   speed: 3
+  lastDirection: {x: 0, y: 0}
 --- !u!114 &6128954348516561991
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -285,3 +286,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   controllerShots: {fileID: 3215320599024769778}
   arrow: {fileID: 8110639007392355744, guid: 5b59e58325372544f8912af83548130f, type: 3}
+  firePoint: {fileID: 0}
+  playerMovement: {fileID: 587125521464638017}

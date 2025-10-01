@@ -194,7 +194,7 @@ PrefabInstance:
     - target: {fileID: 9099339150461786473, guid: 28f7d29fa7c0be44da8c1a46699f31d1, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 801965578}
+      objectReference: {fileID: 0}
     - target: {fileID: 9099339150461786473, guid: 28f7d29fa7c0be44da8c1a46699f31d1, type: 3}
       propertyPath: distanceMin
       value: 0.5
@@ -288,7 +288,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.74, y: 0.71}
   m_EdgeRadius: 0
---- !u!1001 &568353597
+--- !u!1001 &969556072
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -297,20 +297,12 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 5634754255521875136, guid: 7333de7360b5b25418441cc87446a6a0, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5634754255521875136, guid: 7333de7360b5b25418441cc87446a6a0, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5634754255521875136, guid: 7333de7360b5b25418441cc87446a6a0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.767
+      value: 2.33
       objectReference: {fileID: 0}
     - target: {fileID: 5634754255521875136, guid: 7333de7360b5b25418441cc87446a6a0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.89
+      value: -0.21
       objectReference: {fileID: 0}
     - target: {fileID: 5634754255521875136, guid: 7333de7360b5b25418441cc87446a6a0, type: 3}
       propertyPath: m_LocalPosition.z
@@ -344,10 +336,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6128954348516561991, guid: 7333de7360b5b25418441cc87446a6a0, type: 3}
-      propertyPath: controllerShots
-      value: 
-      objectReference: {fileID: 1971691674}
     - target: {fileID: 7286279098170057425, guid: 7333de7360b5b25418441cc87446a6a0, type: 3}
       propertyPath: m_Name
       value: Player
@@ -355,42 +343,8 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 7286279098170057425, guid: 7333de7360b5b25418441cc87446a6a0, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 801965573}
-    - targetCorrespondingSourceObject: {fileID: 416070085036149018, guid: 7333de7360b5b25418441cc87446a6a0, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1971691676}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7333de7360b5b25418441cc87446a6a0, type: 3}
---- !u!1 &801965567 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7286279098170057425, guid: 7333de7360b5b25418441cc87446a6a0, type: 3}
-  m_PrefabInstance: {fileID: 568353597}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &801965573
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 801965567}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2339dfde49f54484d92717f4ea73293f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Fall
-  camara: {fileID: 0}
---- !u!4 &801965578 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5634754255521875136, guid: 7333de7360b5b25418441cc87446a6a0, type: 3}
-  m_PrefabInstance: {fileID: 568353597}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1228719520 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 416070085036149018, guid: 7333de7360b5b25418441cc87446a6a0, type: 3}
-  m_PrefabInstance: {fileID: 568353597}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1331534732
 GameObject:
   m_ObjectHideFlags: 0
@@ -905,25 +859,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.3893435, y: 0.7316911}
   m_EdgeRadius: 0
---- !u!4 &1971691674 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3215320599024769778, guid: 7333de7360b5b25418441cc87446a6a0, type: 3}
-  m_PrefabInstance: {fileID: 568353597}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1971691676
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1228719520}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8235eef4ab6cc754e81566192be5da8f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ShotPlayer
-  controllerShots: {fileID: 1971691674}
-  arrow: {fileID: 8110639007392355744, guid: 5b59e58325372544f8912af83548130f, type: 3}
 --- !u!1001 &4029538901466616035
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -989,6 +924,6 @@ SceneRoots:
   - {fileID: 4029538901466616035}
   - {fileID: 1331534734}
   - {fileID: 1841901429}
-  - {fileID: 568353597}
   - {fileID: 87906478}
   - {fileID: 1788407774}
+  - {fileID: 969556072}
