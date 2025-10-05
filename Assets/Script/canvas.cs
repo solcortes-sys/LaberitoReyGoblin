@@ -22,7 +22,7 @@ public class canvas : MonoBehaviour
     void Start()
     {
         
-        cartel.text = "Live´s:"; 
+        cartel.text = "Lives in Room 1:"; 
         character = '/'; // El carácter que repito
         repeatCount = 100;
 
