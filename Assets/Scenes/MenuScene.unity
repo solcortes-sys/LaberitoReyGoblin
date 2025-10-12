@@ -1276,23 +1276,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'INSTRUCTIONS
-
-    =============
-
-
-
-    Arrows to move
-
-    H Melee attack
-
-    J
-    Ranged attack
-
-    To start, press the START button for melee attack
-
-    To
-    exit, press the EXIT button for melee attack'
+  m_text: "INSTRUCTIONS\n=============\n\n\nArrows/WASD to move\nH Melee attack\nJ
+    Ranged attack\nTo start, press the MELEE attack button while standing on the
+    START \nTo exit, press the  MELEE attack button while standing on the QUIT"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
